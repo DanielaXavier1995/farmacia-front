@@ -1,5 +1,6 @@
 
 import homeLogo from '../../assets/img/home.jpg'
+import ListaCategoria from '../../components/categoria/listaCategoria/ListaCategoria';
 
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
             </div>
           </div>
         </div>
-      
+        <ListaCategoria />
       </>
     );
 }
